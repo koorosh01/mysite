@@ -3,7 +3,7 @@ from website.views import *
 
 urlpatterns = [
 
-    path('',index_views),
-    path('about',about_views),
-    path('contact',contact_views)
+    path('',index_view),
+    path('about',about_view),
+    path('contact',contact_view)
 ]
